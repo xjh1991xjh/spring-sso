@@ -1,0 +1,11 @@
+2017-11-1218:21:45[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1218:21:46[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 18:21:46 GMT+08:00 2017]; root of context hierarchy
+2017-11-1218:21:46[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1218:21:46[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1218:21:46[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1218:21:46[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1218:21:46[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1218:21:46[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1218:21:46[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1218:21:46[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1218:21:46[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 867 ms

@@ -1,0 +1,555 @@
+2017-11-1220:09:52[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1220:09:52[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 20:09:52 GMT+08:00 2017]; root of context hierarchy
+2017-11-1220:09:53[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1220:09:53[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1220:09:53[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1220:09:53[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1220:09:53[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1220:09:53[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:09:53[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1220:09:53[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1220:09:53[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1092 ms
+2017-11-1220:13:06[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1220:13:06[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 20:13:06 GMT+08:00 2017]; root of context hierarchy
+2017-11-1220:13:06[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1220:13:06[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1220:13:06[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1220:13:07[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1220:13:07[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1220:13:07[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:13:07[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1220:13:07[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1220:13:07[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1424 ms
+2017-11-1220:13:07[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1220:13:07[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:13:07 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:13:07[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1220:13:08[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:13:08[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1220:13:08[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1220:13:08[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/index],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.index(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1220:13:08[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1220:13:08[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1220:13:08[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:13:07 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:13:08[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:13:07 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:13:08[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1049 ms
+2017-11-1220:16:42[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1220:16:42[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 20:16:42 GMT+08:00 2017]; root of context hierarchy
+2017-11-1220:16:42[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1220:16:42[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1220:16:42[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1220:16:42[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1220:16:42[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1220:16:42[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:16:43[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1220:16:43[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1220:16:43[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1070 ms
+2017-11-1220:16:43[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1220:16:43[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:16:43 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:16:43[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1220:16:43[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:16:43[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1220:16:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1220:16:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1220:16:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1220:16:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1220:16:44[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:16:43 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:16:44[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:16:43 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:16:44[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1100 ms
+2017-11-1220:23:40[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1220:23:40[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 20:23:40 GMT+08:00 2017]; root of context hierarchy
+2017-11-1220:23:40[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1220:23:41[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1220:23:41[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1220:23:41[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1220:23:41[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1220:23:41[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:23:41[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1220:23:41[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1220:23:42[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1656 ms
+2017-11-1220:23:42[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1220:23:42[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:23:42 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:23:42[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1220:23:42[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:23:42[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1220:23:42[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1220:23:42[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1220:23:42[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1220:23:42[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1220:23:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:23:42 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:23:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:23:42 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:23:43[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1189 ms
+2017-11-1220:36:52[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1220:36:52[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 20:36:52 GMT+08:00 2017]; root of context hierarchy
+2017-11-1220:36:53[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1220:36:53[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1220:36:53[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1220:36:53[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1220:36:53[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1220:36:53[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:36:53[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1220:36:53[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1220:36:54[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1528 ms
+2017-11-1220:36:54[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1220:36:54[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:36:54 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:36:54[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1220:36:54[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:36:54[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1220:36:54[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1220:36:54[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1220:36:54[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1220:36:54[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1220:36:55[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:36:54 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:36:55[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:36:54 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:36:55[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1032 ms
+2017-11-1220:43:35[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1220:43:35[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 20:43:35 GMT+08:00 2017]; root of context hierarchy
+2017-11-1220:43:35[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1220:43:35[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1220:43:35[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1220:43:36[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1220:43:36[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1220:43:36[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:43:36[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1220:43:36[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1220:43:36[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 929 ms
+2017-11-1220:43:36[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1220:43:36[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:43:36 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:43:36[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1220:43:36[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:43:36[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1220:43:36[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1220:43:36[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1220:43:36[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1220:43:36[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1220:43:37[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:43:36 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:43:37[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:43:36 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:43:37[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 592 ms
+2017-11-1220:49:46[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1220:49:46[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 20:49:46 GMT+08:00 2017]; root of context hierarchy
+2017-11-1220:49:46[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1220:49:46[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1220:49:46[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1220:49:46[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1220:49:47[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1220:49:47[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:49:47[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1220:49:47[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1220:49:47[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1036 ms
+2017-11-1220:49:47[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1220:49:47[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:49:47 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:49:47[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1220:49:47[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1220:49:47[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1220:49:48[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1220:49:48[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1220:49:48[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1220:49:48[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1220:49:48[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:49:47 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:49:48[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 20:49:47 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1220:49:48[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1069 ms
+2017-11-1221:30:03[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1221:30:03[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 21:30:03 GMT+08:00 2017]; root of context hierarchy
+2017-11-1221:30:04[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1221:30:04[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1221:30:04[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1221:30:04[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1221:30:04[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1221:30:04[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1221:30:04[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1221:30:04[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1221:30:04[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1036 ms
+2017-11-1221:30:04[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1221:30:04[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:30:04 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:30:04[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1221:30:05[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1221:30:05[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1221:30:05[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1221:30:05[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1221:30:05[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1221:30:05[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1221:30:05[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:30:04 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:30:05[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:30:04 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:30:06[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1051 ms
+2017-11-1221:33:44[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1221:33:44[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 21:33:44 GMT+08:00 2017]; root of context hierarchy
+2017-11-1221:33:44[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1221:33:44[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1221:33:44[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1221:33:45[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1221:33:45[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1221:33:45[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1221:33:45[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1221:33:45[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1221:33:45[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1762 ms
+2017-11-1221:33:46[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1221:33:46[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:33:46 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:33:46[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1221:33:46[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1221:33:46[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1221:33:46[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1221:33:46[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1221:33:46[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1221:33:46[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1221:33:47[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:33:46 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:33:47[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:33:46 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:33:47[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1202 ms
+2017-11-1221:45:31[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1221:45:32[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 21:45:32 GMT+08:00 2017]; root of context hierarchy
+2017-11-1221:45:32[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1221:45:32[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1221:45:32[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1221:45:32[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1221:45:32[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1221:45:32[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1221:45:32[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1221:45:32[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1221:45:33[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1119 ms
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1221:45:33[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:45:33 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:45:33[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1221:45:33[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:45:33 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:45:33 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:45:33[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 856 ms
+2017-11-1221:57:36[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1221:57:36[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 21:57:36 GMT+08:00 2017]; root of context hierarchy
+2017-11-1221:57:36[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1221:57:37[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1221:57:37[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1221:57:37[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1221:57:37[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1221:57:37[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1221:57:37[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1221:57:37[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1221:57:37[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1020 ms
+2017-11-1221:57:43[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1221:57:43[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:57:43 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:57:43[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1221:57:43[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1221:57:43[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1221:57:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1221:57:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1221:57:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1221:57:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1221:57:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1221:57:43[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:57:43 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:57:44[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 21:57:43 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1221:57:44[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 889 ms
+2017-11-1222:05:12[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1222:05:12[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 22:05:12 GMT+08:00 2017]; root of context hierarchy
+2017-11-1222:05:12[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1222:05:12[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1222:05:12[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1222:05:12[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1222:05:12[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1222:05:12[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1222:05:12[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1222:05:12[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1222:05:13[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 954 ms
+2017-11-1222:15:50[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1222:15:50[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:15:50 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:15:50[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1222:15:50[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1222:15:50[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1222:15:50[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1222:15:50[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1222:15:50[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1222:15:50[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1222:15:50[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1222:15:50[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:15:50 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:15:51[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:15:50 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:15:51[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 897 ms
+2017-11-1222:17:28[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1222:17:29[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 22:17:29 GMT+08:00 2017]; root of context hierarchy
+2017-11-1222:17:29[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1222:17:29[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1222:17:29[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1222:17:29[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1222:17:29[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1222:17:29[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1222:17:29[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1222:17:29[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1222:17:29[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 980 ms
+2017-11-1222:17:29[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1222:17:29[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:17:29 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:17:29[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1222:17:30[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1222:17:30[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1222:17:30[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1222:17:30[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1222:17:30[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1222:17:30[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1222:17:30[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1222:17:30[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:17:29 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:17:30[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:17:29 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:17:31[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1063 ms
+2017-11-1222:20:14[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1222:20:14[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 22:20:14 GMT+08:00 2017]; root of context hierarchy
+2017-11-1222:20:14[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1222:20:14[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1222:20:14[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1222:20:14[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1222:20:14[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1222:20:14[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1222:20:14[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1222:20:14[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1222:20:15[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1064 ms
+2017-11-1222:20:15[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1222:20:15[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:20:15 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:20:15[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1222:20:15[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1222:20:15[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1222:20:15[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1222:20:15[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.logout(java.lang.String)
+2017-11-1222:20:15[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1222:20:15[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1222:20:15[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1222:20:16[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:20:15 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:20:16[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:20:15 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:20:16[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1003 ms
+2017-11-1222:46:01[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1222:46:01[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 22:46:01 GMT+08:00 2017]; root of context hierarchy
+2017-11-1222:46:01[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1222:46:01[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1222:46:01[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1222:46:01[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1222:46:01[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1222:46:01[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1222:46:01[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1222:46:01[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1222:46:02[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1081 ms
+2017-11-1222:46:02[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1222:46:02[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:46:02 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:46:02[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1222:46:02[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1222:46:02[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1222:46:02[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1222:46:02[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1222:46:02[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1222:46:02[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1222:46:02[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1222:46:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:46:02 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:46:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 22:46:02 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1222:46:03[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1039 ms
+2017-11-1223:01:03[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:01:03[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:01:03 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:01:03[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:01:03[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:01:03[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:01:03[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:01:04[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:01:04[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:01:04[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:01:04[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:01:04[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1325 ms
+2017-11-1223:01:04[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:01:04[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:01:04 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:01:04[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:01:04[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:01:04[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:01:04[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:01:04[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:01:04[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:01:04[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:01:04[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:01:04[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:01:04 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:01:05[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:01:04 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:01:05[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 653 ms
+2017-11-1223:16:01[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:16:01[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:16:01 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:16:01[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:16:01[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:16:01[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:16:02[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:16:02[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:16:02[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:16:02[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:16:02[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:16:02[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1024 ms
+2017-11-1223:16:02[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:16:02[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:16:02 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:16:02[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:16:02[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:16:02 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:16:02 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:16:03[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1008 ms
+2017-11-1223:18:47[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:18:47[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:18:47 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:18:47[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:18:47[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:18:47[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:18:47[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:18:48[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:18:48[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:18:48[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:18:48[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:18:48[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 976 ms
+2017-11-1223:18:48[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:18:48[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:18:48 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:18:48[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:18:48[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:18:48[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:18:49[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:18:49[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:18:49[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:18:49[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:18:49[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:18:49[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:18:48 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:18:49[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:18:48 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:18:49[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1095 ms
+2017-11-1223:22:19[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:22:20[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:22:20 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:22:20[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:22:20[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:22:20[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:22:20[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:22:20[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:22:20[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:22:20[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:22:20[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:22:20[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1006 ms
+2017-11-1223:22:20[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:22:20[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:22:20 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:22:21[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:22:21[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:22:21[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:22:21[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:22:21[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:22:21[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:22:21[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:22:21[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:22:21[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:22:20 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:22:21[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:22:20 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:22:22[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1041 ms
+2017-11-1223:25:00[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:25:00[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:25:00 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:25:00[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:25:00[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:25:00[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:25:00[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:25:00[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:25:00[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:25:00[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:25:00[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:25:01[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1027 ms
+2017-11-1223:25:01[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:25:01[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:25:01 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:25:01[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:25:01[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:25:01[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:25:01[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:25:01[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:25:01[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:25:01[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:25:01[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:25:02[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:25:01 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:25:02[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:25:01 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:25:02[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1078 ms
+2017-11-1223:29:36[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:29:36[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:29:36 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:29:36[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:29:36[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:29:36[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:29:36[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:29:36[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:29:36[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:29:37[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:29:37[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:29:37[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1330 ms
+2017-11-1223:29:37[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:29:37[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:29:37 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:29:37[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:29:37[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:29:37 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:29:37 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:29:38[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1349 ms
+2017-11-1223:30:46[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:30:47[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:30:47 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:30:47[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:30:47[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:30:47[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:30:48[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:30:48[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:30:48[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:30:48[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:30:48[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:30:50[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 3689 ms
+2017-11-1223:30:50[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:30:50[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:30:50 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:30:50[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:30:51[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:30:52[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:30:52[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:30:52[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:30:52[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:30:52[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:30:52[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:30:53[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:30:50 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:30:53[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:30:50 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:30:53[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 2652 ms
+2017-11-1223:34:38[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:34:38[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:34:38 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:34:38[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:34:39[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:34:39[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:34:39[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:34:39[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:34:39[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:34:39[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:34:39[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:34:39[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 975 ms
+2017-11-1223:34:39[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:34:39[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:34:39 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:34:39[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:34:40[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:34:39 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:34:39 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:34:40[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1021 ms
+2017-11-1223:37:36[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+2017-11-1223:37:36[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Nov 12 23:37:36 GMT+08:00 2017]; root of context hierarchy
+2017-11-1223:37:36[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-context.xml]
+2017-11-1223:37:36[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-service.xml]
+2017-11-1223:37:36[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [application-dao.xml]
+2017-11-1223:37:37[WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner]No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+2017-11-1223:37:37[INFO]-[org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [database.properties]
+2017-11-1223:37:37[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:37:37[INFO]-[com.mchange.v2.log.MLog]MLog clients using log4j logging.
+2017-11-1223:37:37[INFO]-[com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-11-1223:37:38[INFO]-[org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 2314 ms
+2017-11-1223:37:38[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-1223:37:38[INFO]-[org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:37:38 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:37:38[INFO]-[org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/G:/ProjectFiles/SpringAbout/springboot/xjh-sso/target/classes/application-mvc.xml]
+2017-11-1223:37:38[INFO]-[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-1223:37:38[INFO]-[org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-11-1223:37:39[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.IndexController.index()
+2017-11-1223:37:39[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologin],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologin(java.lang.String,java.lang.String,java.lang.String)
+2017-11-1223:37:39[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/tologin]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.tologin(java.lang.String)
+2017-11-1223:37:39[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/login/dologout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.xjh.sso.controller.LoginController.dologout()
+2017-11-1223:37:39[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/sso/token/check/{token}],methods=[GET]}" onto public java.lang.String com.xjh.sso.controller.SsoController.dologin(java.lang.String)
+2017-11-1223:37:39[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:37:38 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:37:39[INFO]-[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sun Nov 12 23:37:38 GMT+08:00 2017]; parent: Root WebApplicationContext
+2017-11-1223:37:39[INFO]-[org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 1196 ms

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;xjh-org&apos;&#x0D;&#x0A;- Original project: &apos;xjh-org&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     byta-product-consumer.log&#x0D;&#x0A;     xjh-org.log&#x0D;&#x0A;     xjh-org.log.2017-11-12" description="Delete elements" element1="logs/byta-product-consumer.log" element2="logs/xjh-org.log" element3="logs/xjh-org.log.2017-11-12" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1510564721174" subPackages="false" version="1.0"/>
+</session>

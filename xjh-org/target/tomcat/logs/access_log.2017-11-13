@@ -1,0 +1,8 @@
+127.0.0.1 - - [13/Nov/2017:17:06:16 +0800] "GET /index?timeStatmp=1510561920849&ssoToken=fa069eb0-f4f7-4430-9576-5870fd6c96b5 HTTP/1.0" 200 74 http-bio-8081-exec-1 559
+127.0.0.1 - - [13/Nov/2017:17:07:12 +0800] "GET /index?timeStatmp=1510561920849&ssoToken=fa069eb0-f4f7-4430-9576-5870fd6c96b5 HTTP/1.0" 200 139 http-bio-8081-exec-2 94
+127.0.0.1 - - [13/Nov/2017:17:07:21 +0800] "GET /index?timeStatmp=1510561920849&ssoToken=fa069eb0-f4f7-4430-9576-5870fd6c96b5 HTTP/1.0" 200 138 http-bio-8081-exec-3 66
+127.0.0.1 - - [13/Nov/2017:17:07:22 +0800] "GET /sso/logout/fa069eb0-f4f7-4430-9576-5870fd6c96b5 HTTP/1.0" 200 7 http-bio-8081-exec-4 18
+127.0.0.1 - - [13/Nov/2017:17:07:47 +0800] "GET /index HTTP/1.0" 302 - http-bio-8081-exec-5 2
+127.0.0.1 - - [13/Nov/2017:17:07:51 +0800] "GET /index?timeStatmp=1510564067245&ssoToken=4c79083b-77a4-46d1-9ff9-26e37f5e9991 HTTP/1.0" 200 138 http-bio-8081-exec-6 15
+127.0.0.1 - - [13/Nov/2017:17:08:22 +0800] "GET /sso/logout/4c79083b-77a4-46d1-9ff9-26e37f5e9991 HTTP/1.0" 200 7 http-bio-8081-exec-7 4
+127.0.0.1 - - [13/Nov/2017:17:08:30 +0800] "GET /index HTTP/1.0" 302 - http-bio-8081-exec-8 1

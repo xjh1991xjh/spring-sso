@@ -1,0 +1,12 @@
+2017-11-12 20:06:59  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+  2017-11-12 20:06:59  [ localhost-startStop-1:64 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Sun Nov 12 20:06:59 GMT+08:00 2017]; root of context hierarchy
+  2017-11-12 20:06:59  [ localhost-startStop-1:89 ] - [ INFO ]  Loading XML bean definitions from class path resource [application-context.xml]
+  2017-11-12 20:06:59  [ localhost-startStop-1:167 ] - [ INFO ]  Loading XML bean definitions from class path resource [application-service.xml]
+  2017-11-12 20:06:59  [ localhost-startStop-1:231 ] - [ INFO ]  Loading XML bean definitions from class path resource [application-dao.xml]
+  2017-11-12 20:06:59  [ localhost-startStop-1:443 ] - [ WARN ]  No MyBatis mapper was found in '[com.xjh.*.dao]' package. Please check your configuration.
+  2017-11-12 20:06:59  [ localhost-startStop-1:492 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+  2017-11-12 20:06:59  [ localhost-startStop-1:499 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  2017-11-12 20:06:59  [ localhost-startStop-1:552 ] - [ INFO ]  MLog clients using log4j logging.
+  2017-11-12 20:06:59  [ localhost-startStop-1:580 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+  2017-11-12 20:06:59  [ localhost-startStop-1:911 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 910 ms
+  

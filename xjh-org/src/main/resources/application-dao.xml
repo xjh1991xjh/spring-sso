@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+	     http://www.springframework.org/schema/tx
+	     http://www.springframework.org/schema/tx/spring-tx.xsd
+	     http://www.springframework.org/schema/aop
+	     http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+	<!-- 1.加载配置文件 -->
+	<context:property-placeholder location="classpath:database.properties" />
+
+	<!-- 2.数据库连接池 -->
+	<bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">
+		<!-- 配置连接池属性 -->
+		<property name="driverClass" value="${jdbc.driver}" />
+		<property name="jdbcUrl" value="${jdbc.url}" />
+		<property name="user" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+
+		<!-- c3p0连接池的私有属性 -->
+		<property name="maxPoolSize" value="30" />
+		<property name="minPoolSize" value="10" />
+		<!-- 关闭连接后不自动commit -->
+		<property name="autoCommitOnClose" value="false" />
+		<!-- 获取连接超时时间 -->
+		<property name="checkoutTimeout" value="10000" />
+		<!-- 当获取连接失败重试次数 -->
+		<property name="acquireRetryAttempts" value="2" />
+	</bean>
+
+
+	<!-- 3.配置sqlSessionFactory -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- 数据源 -->
+		<property name="dataSource" ref="dataSource" />
+		<!-- 加載mybatis的配置文件 -->
+		<property name="configLocation" value="classpath:mybatis-config.xml" />
+		<!-- 指定sql映射文件 -->
+		<property name="mapperLocations" value="classpath:com/xjh/*/mapper/*.xml" />
+		<!-- 扫描model包 使用别名 -->
+		<property name="typeAliasesPackage" value="com.xjh.*.model" />
+	</bean>
+
+	<!-- 4.mapper批量扫描，从mapper包中扫描出mapper接口，自动创建代理对象并且在spring容器中注册 -->
+	<!-- 自动扫描出来的mapper的bean的id为mapper类名（首字母小写） -->
+	<!-- 扫描多个包用,分开 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.xjh.*.dao" />
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+	</bean>
+
+	<!-- 5.事物管理器 对mybatis操作数据库事物控制，spring使用Jdbc的事物控制类 -->
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<!-- 数据源 dataSource在applicationContext-dao.xml中配置了 -->
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+</beans>
